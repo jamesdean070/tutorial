@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "ui-router for authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miconblog/tutorial"
+  },
+  "keywords": [
+    "angularjs",
+    "ui-router",
+    "authentication"
+  ],
+  "author": "ByungDae Sohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miconblog/tutorial/issues"
+  },
+  "homepage": "https://github.com/miconblog/tutorial",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}

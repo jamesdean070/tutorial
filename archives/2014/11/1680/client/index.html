@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>ui-router for authentication</title>
+  </head>
+  <body>
+    <h1>ui-router for authentication</h1>
+    <div ui-view>
+      <p>replace html in here!</p>
+      <a ui-sref='admin'>Go to admin</a>
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="routes.js"></script>
+    <script src="signin/signin.controller.js"></script>
+    <script src="admin/admin.controller.js"></script>
+  </body>
+</html>
